@@ -82,6 +82,9 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 3em 12em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navbar .link {
@@ -89,6 +92,7 @@ h1 {
   color: white;
   font-weight: 400;
   font-size: 20px;
+  display: none;
 }
 
 .home {
@@ -716,7 +720,7 @@ h1 {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
-  padding: 4em 0 0 4em;
+  padding: 2em 0 0 4em;
 }
 
 .skills-wrapper .hero-skills .my-skills {
@@ -756,7 +760,7 @@ h1 {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
-  padding-top: 5em;
+  padding-top: 3em;
 }
 
 .skills-wrapper .skills-bar .group-bar {
@@ -802,14 +806,6 @@ h1 {
   width: 276px;
   height: 10px;
   background-color: white;
-}
-
-.skills-wrapper .skills-bar .bar-react:before {
-  content: '';
-  position: absolute;
-  width: 182px;
-  height: 10px;
-  background-color: #EF3D7D;
 }
 
 .skills-wrapper .skills-bar .bar-js {

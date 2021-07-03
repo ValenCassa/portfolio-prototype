@@ -74,12 +74,15 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: 3em 12em;
+  justify-content: center;
+
 
   .link {
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 400;
     font-size: 20px;
+    display: none;
   }
 }
 
@@ -678,7 +681,7 @@ h1 {
   
   .hero-skills {
     flex: 50%;
-    padding: 4em 0 0 4em;
+    padding: 2em 0 0 4em;
 
     .my-skills {
       color: #A56B7D;
@@ -716,7 +719,7 @@ h1 {
 
   .skills-bar {
     flex: 50%;
-    padding-top: 5em;
+    padding-top: 3em;
 
     .group-bar {
       display: flex;
@@ -758,14 +761,6 @@ h1 {
       width: 276px;
       height: 10px;
       background-color: white;
-
-      &:before {
-        content: '';
-        position: absolute;
-        width: 182px;
-        height: 10px;
-        background-color: #EF3D7D;
-      }
     }
 
     .bar-js {
